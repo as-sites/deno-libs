@@ -1,0 +1,18 @@
+{
+    "version": "0.0.0",
+    "license": "MIT",
+    "imports": {
+        "https://esm.sh/react": "https://esm.sh/react@18.3.1",
+        "react": "https://esm.sh/react@18.3.1",
+        "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+        "@types/react": "https://esm.sh/@types/react@latest"
+    },
+    "workspace": {
+        "members": ["./packages/genshin-impact-element-icons"]
+    },
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "react",
+        "lib": ["dom", "dom.iterable", "dom.asynciterable", "esnext", "deno.ns", "deno.window"]
+    }
+}
