@@ -1,15 +1,43 @@
 {
   "version": "4",
+  "specifiers": {
+    "npm:genshin-db@*": "5.1.8"
+  },
+  "npm": {
+    "fuzzysort@1.9.0": {
+      "integrity": "sha512-MOxCT0qLTwLqmEwc7UtU045RKef7mc8Qz8eR4r2bLNEq9dy/c3ZKMEFp6IEst69otkQdFZ4FfgH2dmZD+ddX1g=="
+    },
+    "genshin-db@5.1.8": {
+      "integrity": "sha512-TXBV+IxEdx1yeJdxMJzD6P1DDTTzN9Cy0gT660ZayfebRWNCi7JEbU9urGunor9MYfcSMW6gcXxkEE38KgbWXQ==",
+      "dependencies": [
+        "fuzzysort",
+        "pako"
+      ]
+    },
+    "pako@2.1.0": {
+      "integrity": "sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug=="
+    }
+  },
   "redirects": {
+    "https://esm.sh/genshin-db/types/index.d.ts": "https://esm.sh/genshin-db@5.1.8/types/index.d.ts",
+    "https://esm.sh/genshin-db@5.1.8/types/index.d.ts": "https://esm.sh/v135/genshin-db@5.1.8/types/index.d.ts",
     "https://esm.sh/react": "https://esm.sh/react@18.3.1",
     "https://esm.sh/react@latest": "https://esm.sh/react@18.3.1",
     "https://esm.sh/v128/@types/react@~18.3/index.d.ts": "https://esm.sh/v128/@types/react@18.2.38/index.d.ts",
     "https://esm.sh/v128/@types/react@~18.3/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@18.2.38/jsx-runtime~.d.ts"
   },
   "remote": {
+    "https://esm.sh/genshin-db@5.1.8/src/folder.js?exports=folders": "4d1f657625f96e7a7ff59fa49315781d74f513e0569ebddf14e926441e448434",
+    "https://esm.sh/genshin-db@5.1.8/src/folder.js?exports=folders,FoldersEnum": "a1e839a4b4531fcf0f03b814c88cc9dfb5cff76a0c2230989e00a41892e87eb6",
+    "https://esm.sh/genshin-db@5.1.8/src/folder.js?external=*&exports=folders": "5b7f57b8edf6e36eb817090e989dfd06c2b81a868fde74b016fefa8b6a0200e9",
     "https://esm.sh/react@18.3.1": "52480d4c00855e4f76843caa4f2818eb001671523740cbf064cbd108721c29c8",
     "https://esm.sh/react@18.3.1/jsx-runtime": "f47f11639cc0531ad2f1e0f6334d9ae7a8d906c905d9b79cb2e8cd4331bc5b10",
     "https://esm.sh/stable/react@18.3.1/denonext/jsx-runtime.js": "5ff1e02a3bb5c69dd3535d77054b182f1ea51c5eeaf24a396984f6b7012c2716",
-    "https://esm.sh/stable/react@18.3.1/denonext/react.mjs": "fc048ffc55366baf7669519127d186761db72046e2bebf35fe8d0de3964defa3"
+    "https://esm.sh/stable/react@18.3.1/denonext/react.mjs": "fc048ffc55366baf7669519127d186761db72046e2bebf35fe8d0de3964defa3",
+    "https://esm.sh/v135/fuzzysort@1.9.0/denonext/fuzzysort.mjs": "5d75b734626220b819f57745eda3b424e69176afd4866ebfab9d17f217689efd",
+    "https://esm.sh/v135/genshin-db@5.1.8/X-ZS8qCnRzL2ZvbGRlcnM/denonext/src/folder.js": "eb05785551759f6477d17aa553a7d4f66087c8a5d4fa07eb146949d51cfb96c1",
+    "https://esm.sh/v135/genshin-db@5.1.8/X-dHMvRm9sZGVyc0VudW0sZm9sZGVycw/denonext/src/folder.js": "e4727edfebe431a2fc4cdef8421ca5bd02ddb9a231c3efb6913f76ba7a182ec7",
+    "https://esm.sh/v135/genshin-db@5.1.8/X-dHMvZm9sZGVycw/denonext/src/folder.js": "e4727edfebe431a2fc4cdef8421ca5bd02ddb9a231c3efb6913f76ba7a182ec7",
+    "https://raw.githubusercontent.com/theBowja/genshin-db/refs/heads/main/src/design.json": "4663ccc8acd612285785e6deb409aafa4cc93da6cbc2a0d3d09d04e1c4f64566"
   }
 }

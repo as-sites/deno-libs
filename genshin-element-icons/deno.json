@@ -1,0 +1,16 @@
+{
+    "name": "@ima2y/genshin-element-icons",
+    "license": "MIT",
+    "version": "1.0.0",
+    "exports": {
+        ".": "./mod.ts",
+        "./anemo": "./src/anemo.tsx",
+        "./cryo": "./src/cryo.tsx",
+        "./dendro": "./src/dendro.tsx",
+        "./electro": "./src/electro.tsx",
+        "./geo": "./src/geo.tsx",
+        "./hydro": "./src/hydro.tsx",
+        "./pyro": "./src/pyro.tsx",
+        "./types": "./src/types.ts"
+    }
+}

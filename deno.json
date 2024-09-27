@@ -2,14 +2,15 @@
     "version": "0.0.0",
     "license": "MIT",
     "imports": {
+        "@types/react": "https://esm.sh/@types/react@latest",
         "https://esm.sh/react": "https://esm.sh/react@18.3.1",
         "react": "https://esm.sh/react@18.3.1",
-        "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
-        "@types/react": "https://esm.sh/@types/react@latest"
+        "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime"
     },
     "workspace": {
-        "members": ["./packages/genshin-impact-element-icons"]
+        "members": ["./genshin-element-icons", "./genshin-data"]
     },
+    "vendor": false,
     "compilerOptions": {
         "jsx": "react-jsx",
         "jsxImportSource": "react",
